@@ -31,9 +31,10 @@ missing files--command did not work so i had to manually add spec folder and<br>
  and files.
 3) Added content to missing rails and spec helper rb files because it would <br>
 not automatically generate using the command 'rails generate rspec:install'.
-4) Took out Turbolinks so I can test propperly and refactored seed file but <br>
+4) Commented out Turbolinks so I can test propperly and refactored seed file but <br>
 still not working when i do rails s.
 5) Deleted Gemfile.lock then added to .gitignore.
 6) Seed file would not work so added gem to gemfile and then took out comma </br>
 error in seedfile and changed to before_action in products_controller.rb. Now <br>
 the site will seed.
+7) Added ability to delete an item from a cart, but navbar does not update. 
