@@ -30,3 +30,5 @@ In alphabetical order:
 missing files.
 3) Added content to missing rails and spec helper rb files because it would <br>
 not automatically generate using the command 'rails generate rspec:install'.
+3) Took out Turbolinks so I can test propperly and refactored seed file but <br>
+still not working.
