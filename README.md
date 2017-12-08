@@ -25,4 +25,6 @@ In alphabetical order:
 </ul>
 
 **What I've Changed:**
-1) Updated README.md file--will need more changes. 
+1) Updated README.md file--will need more changes.
+2) Updated Gemfile to include missing gems, and made a spec file to include<br>
+missing files. 
