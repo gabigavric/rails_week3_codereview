@@ -1,9 +1,28 @@
-# README
+**<u>E-Commerce<u>**
 
-E-commerce site. Uses `bcrypt` and `materialize`. There's a seed file. Set up your own admin. If you have questions, I'll be in Bali with no email. Ask someone else.
+**Contributors**
+In alphabetical order:
+<ul>
+  <li>Franz</li>
+  <li>Gabrijela Gavric</li>
+</ul>
 
-To set up:
+**Technologies:**
+<ul>
+  <li>`bcrypt`</li>
+  <li>`materialize`</li>
+</ul>
 
-* `rake db:setup`
+**Set Up:**
+<ul>
+  <li>`git clone " "`</li>
+  <li>`cd went-to-bali-mwahaha`</li>
+  <li>`bundle install`</li>
+  <li>`rails db:create`</li>
+  <li>`rails db:schema:load`</li>
+  <li>`rails seed`</li>
+  <li>`rails s`</li>
+</ul>
 
-* Sorry, didn't get around to tests. It mostly works. There might be a few bugs.
+**What I've Changed:**
+1) Updated README.md file--will need more changes. 
