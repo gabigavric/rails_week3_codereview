@@ -27,8 +27,10 @@ In alphabetical order:
 **What I've Changed:**
 1) Updated README.md file--will need more changes.
 2) Updated Gemfile to include missing gems, and made a spec file to include<br>
-missing files.
+missing files--command did not work so i had to manually add spec folder and<br>
+ and files.
 3) Added content to missing rails and spec helper rb files because it would <br>
 not automatically generate using the command 'rails generate rspec:install'.
-3) Took out Turbolinks so I can test propperly and refactored seed file but <br>
-still not working.
+4) Took out Turbolinks so I can test propperly and refactored seed file but <br>
+still not working when i do rails s.
+5) Deleted Gemfile.lock then added to .gitignore.
