@@ -34,3 +34,6 @@ not automatically generate using the command 'rails generate rspec:install'.
 4) Took out Turbolinks so I can test propperly and refactored seed file but <br>
 still not working when i do rails s.
 5) Deleted Gemfile.lock then added to .gitignore.
+6) Seed file would not work so added gem to gemfile and then took out comma </br>
+error in seedfile and changed to before_action in products_controller.rb. Now <br>
+the site will seed.
