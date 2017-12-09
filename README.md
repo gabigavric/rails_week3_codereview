@@ -37,4 +37,7 @@ still not working when i do rails s.
 6) Seed file would not work so added gem to gemfile and then took out comma </br>
 error in seedfile and changed to before_action in products_controller.rb. Now <br>
 the site will seed.
-7) Added ability to delete an item from a cart, but navbar does not update. 
+7) Added ability to delete an item from a cart, but navbar does not update.
+8/9) Ignore these commits--updated my whole project bc i had to go to doc app so <br>
+I am still not done getting the create to work. When I came back I hadn't made any<br>
+ productive changes. 

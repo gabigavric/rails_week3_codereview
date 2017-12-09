@@ -1,10 +1,11 @@
 class OrderItemsController < ApplicationController
 
   def create
-    @order_item = OrderItem.find(params[:id])
+    @order_item = OrderItem.all
     @order = current_order
     @item = @order.order_items.new(item_params)
     @order.save
+    @total_cost = current_order.calculate_total
     session[:order_id] = @order.id
     respond_to do |format|
       format.html {redirect_to products_path}
@@ -17,6 +18,7 @@ class OrderItemsController < ApplicationController
     @item = @order.order_items.find(params[:id])
     @item.update_attributes(item_params)
     @order.save
+    redirect_to cart_path
   end
 
   def destroy

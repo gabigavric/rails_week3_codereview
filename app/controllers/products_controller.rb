@@ -10,10 +10,19 @@ class ProductsController < ApplicationController
     @product = Product.new
   end
 
+  def show
+   @product = Product.find(params[:id])
+   respond_to do |format|
+     format.html {redirect_to product_path}
+     format.js
+   end
+ end
+
   def create
     @product = Product.new(product_params)
     if @product.save
       redirect_to '/'
+      # format.html { redirect_to @product, notice: 'Product was successfully created.' }
     else
       render :new
     end
